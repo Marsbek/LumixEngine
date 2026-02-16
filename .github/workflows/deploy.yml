@@ -54,7 +54,7 @@ jobs:
             - name: get butler
               working-directory: scripts
               run: |
-                curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
+                curl -L -o butler.zip https://broth.itch.zone/butler/windows-amd64/15.25.0
                 7z x butler.zip
 
             - name: build engine
